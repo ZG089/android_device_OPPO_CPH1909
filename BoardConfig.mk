@@ -83,6 +83,9 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.87.36
 
+# using a custom lun file for mtp
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mtp/lun0/file"
+
 # TWRP Configuration
 TW_DEVICE_VERSION := 1_ZG089
 TW_THEME := portrait_hdpi

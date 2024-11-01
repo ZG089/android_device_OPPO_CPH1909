@@ -1,1 +1,3 @@
 add_lunch_combo twrp_CPH1909-user
+add_lunch_combo twrp_CPH1909-userdebug
+add_lunch_combo twrp_CPH1909-eng

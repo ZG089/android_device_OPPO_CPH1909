@@ -10,3 +10,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     twrp_CPH1909-user \
+    twrp_CPH1909-userdebug \
+    twrp_CPH1909-eng

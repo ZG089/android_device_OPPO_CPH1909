@@ -46,7 +46,7 @@ on fs
     mkdir /dev/usb-ffs/adb 0770 shell shell
     mkdir /dev/usb-ffs/mtp 0770 shell shell
     mount configfs none /config
-    mkdir /config/usb_gadget/g1 0770 shell shell
+    mkdir /sys/class/android_usb/android0 0770 shell shell
     mkdir /sys/class/android_usb/android0/strings/0x409 0770 shell shell
     write /sys/class/android_usb/android0/bcdDevice 0x0223
     write /sys/class/android_usb/android0/bcdUSB 0x0200

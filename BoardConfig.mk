@@ -102,6 +102,9 @@ TW_NO_REBOOT_BOOTLOADER := true
 
 # MTP support
 TW_HAS_MTP := true
+#Load modules
+TW_LOAD_VENDOR_MODULES := "bt_drv.ko fmradio_drv.ko" 
+
 
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true

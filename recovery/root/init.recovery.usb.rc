@@ -66,6 +66,7 @@ on fs
     symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
     mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
     write /sys/class/android_usb/android0/f_ffs/aliases adb
+    mkdir /sys/class/android_usb/android0
     cp /config/usb_gadget/g1/idVendor /sys/class/android_usb/android0
     cp /config/usb_gadget/g1/idProduct /sys/class/android_usb/android0
     mkdir /sys/class/android_usb/android0/g1 0770 shell shell
